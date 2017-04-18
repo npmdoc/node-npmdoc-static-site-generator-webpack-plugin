@@ -1,0 +1,136 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/markdalgleish/static-site-generator-webpack-plugin"
+
+    >static-site-generator-webpack-plugin (v3.4.1)</a>
+</h1>
+<h4>Minimal, unopinionated static site generator powered by webpack</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.static-site-generator-webpack-plugin">module static-site-generator-webpack-plugin</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.static-site-generator-webpack-plugin.static-site-generator-webpack-plugin">
+            function <span class="apidocSignatureSpan"></span>static-site-generator-webpack-plugin
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.static-site-generator-webpack-plugin.toString">
+            function <span class="apidocSignatureSpan">static-site-generator-webpack-plugin.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.static-site-generator-webpack-plugin" id="apidoc.module.static-site-generator-webpack-plugin">module static-site-generator-webpack-plugin</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.static-site-generator-webpack-plugin.static-site-generator-webpack-plugin" id="apidoc.element.static-site-generator-webpack-plugin.static-site-generator-webpack-plugin">
+        function <span class="apidocSignatureSpan"></span>static-site-generator-webpack-plugin
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function StaticSiteGeneratorWebpackPlugin(options) {
+  if (arguments.length &#x3e; 1) {
+    options = legacyArgsToOptions.apply(null, arguments);
+  }
+
+  options = options || {};
+
+  this.entry = options.entry;
+  this.paths = Array.isArray(options.paths) ? options.paths : [options.paths || &#x27;/&#x27;];
+  this.locals = options.locals;
+  this.globals = options.globals;
+  this.crawl = Boolean(options.crawl);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.static-site-generator-webpack-plugin.toString" id="apidoc.element.static-site-generator-webpack-plugin.toString">
+        function <span class="apidocSignatureSpan">static-site-generator-webpack-plugin.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
